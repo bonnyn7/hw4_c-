@@ -22,7 +22,7 @@ namespace Homework4
                 numArray[i] = rand2.Next(40);
                 Console.Write(numArray[i] + " ");
             }
-        Console.Write("Случайные числа массива в квадрате:");
+      Console.Write("Случайные числа массива в квадрате:");
           foreach (int number in numArray)
            {
              Console.Write(Math.Pow(number, 2) + " ");
